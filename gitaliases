@@ -1,0 +1,25 @@
+
+[alias]
+	s = status
+
+	bl = branch -a --list
+	br = branch -r --list
+
+	lol = log --oneline --graph --decorate
+	new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
+
+	fc = commit -a --amend
+
+	# following adopted from Gary Bernhardt, destroyallsoftware.com
+
+	pullff = pull --ff-only
+
+	di = diff
+	dc = diff --cached
+
+	aa = add --all
+
+	l  = "!source ~/.dotfiles/githelpers && pretty_git_log"
+	r  = !git l -30
+	rf = !git l
+	ra = !git rf --all

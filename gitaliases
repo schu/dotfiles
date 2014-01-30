@@ -19,7 +19,7 @@
 
 	aa = add --all
 
-	l  = "!source ~/.dotfiles/githelpers && pretty_git_log"
+	l  = "!. ~/.dotfiles/githelpers && pretty_git_log"
 	r  = !git l -30
 	rf = !git l
 	ra = !git rf --all

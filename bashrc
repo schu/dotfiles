@@ -164,3 +164,4 @@ xhost local: >/dev/null
 # virtualenv
 export WORKON_HOME="$HOME/.virtualenvs"
 export export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+workon d

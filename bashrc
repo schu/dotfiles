@@ -115,6 +115,8 @@ fi
 
 
 
+alias g="git"
+
 [ -f ~/.bashrc-cctrl ] && . ~/.bashrc-cctrl
 
 

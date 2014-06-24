@@ -156,6 +156,10 @@ umask 0027
 export GOPATH="$HOME/code/go"
 export PATH="$GOPATH/bin:$PATH"
 
+# java
+export JAVA_HOME="/opt/java/latest"
+export PATH="$JAVA_HOME/bin:$PATH"
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"

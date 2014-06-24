@@ -116,9 +116,9 @@ fi
 
 
 alias g="git"
+alias tailf="tail -n200 -f"
 
 [ -f ~/.bashrc-cctrl ] && . ~/.bashrc-cctrl
-
 
 _ps() {
   local exit_code=$?

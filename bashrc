@@ -116,6 +116,7 @@ fi
 
 
 alias g="git"
+alias vms="vmstat -s -S M | grep mem"
 alias tailf="tail -n200 -f"
 alias curljson="curl -H 'content-type: application/json'"
 

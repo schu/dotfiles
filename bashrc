@@ -136,6 +136,10 @@ _ps() {
     prompt=$prompt"($(basename $VIRTUAL_ENV)) "
   fi
 
+  if [[ ! -z "$DOTCLOUD_USERNAME" ]]; then
+    prompt=$prompt"dcu:$DOTCLOUD_USERNAME "
+  fi
+
   if [[ ! -z "$ccenv" ]]; then
     prompt=$prompt"{$ccenv} "
   fi

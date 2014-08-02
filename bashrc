@@ -141,7 +141,7 @@ _ps() {
   fi
 
   if [[ ! -z "$ccenv" ]]; then
-    prompt=$prompt"{$ccenv} "
+    prompt=$prompt"ccenv:$ccenv "
   fi
 
   if [[ $exit_code -eq 0 ]]; then

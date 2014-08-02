@@ -121,6 +121,7 @@ alias tailf="tail -n200 -f"
 alias curljson="curl -H 'content-type: application/json'"
 
 [ -f ~/.bashrc-cctrl ] && . ~/.bashrc-cctrl
+[ -f ~/.bashrc-sshconfig ] && . ~/.bashrc-sshconfig
 
 _ps() {
   local exit_code=$?

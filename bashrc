@@ -175,9 +175,6 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# xhost
-xhost local: >/dev/null
-
 # virtualenv
 export WORKON_HOME="$HOME/.virtualenvs"
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'

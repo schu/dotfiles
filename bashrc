@@ -179,3 +179,6 @@ eval "$(rbenv init -)"
 export WORKON_HOME="$HOME/.virtualenvs"
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 workon d
+
+# misc
+export EDITOR=vim

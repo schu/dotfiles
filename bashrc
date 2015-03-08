@@ -145,9 +145,9 @@ _ps() {
   fi
 
   if [[ $exit_code -eq 0 ]]; then
-    prompt=$prompt"\[$green\]⚫\[$blank\] "
+    prompt=$prompt"\[$green\]•\[$blank\] "
   else
-    prompt=$prompt"\[$red\]⚫\[$blank\] "
+    prompt=$prompt"\[$red\]•\[$blank\] "
   fi
 
   PS1=$prompt

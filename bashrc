@@ -165,10 +165,11 @@ export LC_ALL=en_US.UTF-8
 
 # go
 export GOPATH="$HOME/code/go"
+export PATH="/opt/schu/go/latest/bin:$PATH"
 export PATH="$GOPATH/bin:$PATH"
 
 # java
-export JAVA_HOME="/opt/java/latest"
+export JAVA_HOME="/opt/schu/java/latest"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 # rbenv

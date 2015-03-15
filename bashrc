@@ -157,6 +157,9 @@ _ps() {
 PROMPT_COMMAND=_ps
 
 TERM=xterm-256color
+if [[ -n "${TMUX}" ]]; then
+  TERM=screen-256color
+fi
 
 umask 0027
 

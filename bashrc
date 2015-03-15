@@ -119,6 +119,7 @@ alias g="git"
 alias vms="vmstat -s -S M | grep mem"
 alias tailf="tail -n200 -f"
 alias curljson="curl -H 'content-type: application/json'"
+alias l="i3lock -c 000000"
 
 [ -f ~/.bashrc-cctrl ] && . ~/.bashrc-cctrl
 [ -f ~/.bashrc-sshconfig ] && . ~/.bashrc-sshconfig

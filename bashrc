@@ -136,15 +136,19 @@ _ps() {
 
   local prompt=" "
 
-  if [[ ! -z "$VIRTUAL_ENV" ]]; then
+  if [[ -n "$SSH_CLIENT" ]]; then
+    prompt=$prompt"$(hostname) "
+  fi
+
+  if [[ -n "$VIRTUAL_ENV" ]]; then
     prompt=$prompt"($(basename $VIRTUAL_ENV)) "
   fi
 
-  if [[ ! -z "$DOTCLOUD_USERNAME" ]]; then
+  if [[ -n "$DOTCLOUD_USERNAME" ]]; then
     prompt=$prompt"dcu:$DOTCLOUD_USERNAME "
   fi
 
-  if [[ ! -z "$ccenv" ]]; then
+  if [[ -n "$ccenv" ]]; then
     prompt=$prompt"ccenv:$ccenv "
   fi
 

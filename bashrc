@@ -123,6 +123,7 @@ alias l="i3lock -c 000000"
 alias ssh="ssh -a"
 alias sshs="ssh"
 alias psc="ps xawf -eo pid,user,cgroup,args"
+alias gpg="gpg2"
 
 [ -f ~/.bashrc-cctrl ] && . ~/.bashrc-cctrl
 [ -f ~/.bashrc-sshconfig ] && . ~/.bashrc-sshconfig

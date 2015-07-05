@@ -134,11 +134,12 @@ _ps() {
   local red=$(tput setaf 1)
   local green=$(tput setaf 2)
   local blank=$(tput sgr0)
+  local orange=$(tput setaf 172)
 
   local prompt=" "
 
   if [[ -n "$SSH_TTY" ]]; then
-    prompt=$prompt"$(hostname) "
+    prompt=$prompt"\[$orange\]$(hostname)\[$blank\] "
   fi
 
   if [[ -n "$VIRTUAL_ENV" ]]; then

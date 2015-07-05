@@ -137,7 +137,7 @@ _ps() {
 
   local prompt=" "
 
-  if [[ -n "$SSH_CLIENT" ]]; then
+  if [[ -n "$SSH_TTY" ]]; then
     prompt=$prompt"$(hostname) "
   fi
 

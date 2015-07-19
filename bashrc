@@ -170,8 +170,6 @@ if [[ -n "${TMUX}" ]]; then
   TERM=screen-256color
 fi
 
-umask 0027
-
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8

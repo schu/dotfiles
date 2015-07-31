@@ -194,6 +194,7 @@ workon d
 
 # misc
 export EDITOR=vim
+export BROWSER=firefox
 
 # OPAM configuration
 . /home/schu/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true

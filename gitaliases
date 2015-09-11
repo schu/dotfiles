@@ -10,6 +10,8 @@
 
 	fc = commit -a --amend
 
+	fpa = fetch --prune --all
+
 	# following adopted from Gary Bernhardt, destroyallsoftware.com
 
 	mergeff = merge --ff-only

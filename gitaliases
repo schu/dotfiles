@@ -17,6 +17,8 @@
 	mergeff = merge --ff-only
 	pullff = pull --ff-only
 
+	pf = push --force-with-lease
+
 	di = diff
 	dc = diff --cached
 

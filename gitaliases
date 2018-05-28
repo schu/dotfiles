@@ -10,7 +10,7 @@
 
 	fc = commit -a --amend
 
-	fpa = fetch --prune --all
+	fpa = fetch --prune --all --tags
 
 	# following adopted from Gary Bernhardt, destroyallsoftware.com
 

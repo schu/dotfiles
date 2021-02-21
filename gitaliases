@@ -12,6 +12,8 @@
 
 	fpa = fetch --prune --all --tags
 
+	contributors = shortlog -sne
+
 	# following adopted from Gary Bernhardt, destroyallsoftware.com
 
 	mergeff = merge --ff-only

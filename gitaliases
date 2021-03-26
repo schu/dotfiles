@@ -12,7 +12,7 @@
 
 	fpa = fetch --prune --all --tags
 
-	contributors = shortlog -sne
+	contributors = shortlog -sne --no-merges
 
 	# following adopted from Gary Bernhardt, destroyallsoftware.com
 
